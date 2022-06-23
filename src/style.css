@@ -381,8 +381,8 @@ a {
     .hamburger {
         display: block;
         border: 0;
-        background-color: #FFBE10;
-        color: #FFBE10;
+        background-color: #1B1C19;
+        color: #1B1C19;
         font-size: 30px;
         margin: 20px;
         align-self: flex-end;
@@ -390,7 +390,6 @@ a {
     }
 
     ul {
-        background-color: #2b2c38;
         margin: 0;
     }
 
@@ -401,7 +400,7 @@ a {
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: #2b2c38;
+        background-color: #FFBE10;
     }
 
     .logo {
