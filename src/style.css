@@ -1,6 +1,7 @@
 body {
     font-family: 'Playfair Display', serif;
     text-align: justify;
+    font-size: 30px;
 }
 
 section {
@@ -58,7 +59,6 @@ section {
 .why-us-list-item {
     display: flex;
     flex-direction: row;
-    margin: 20px;
     transition: transform 1s;
 }
 
@@ -116,7 +116,7 @@ p {
 }
 
 .description {
-    padding: 30px;
+    padding: 5px 0;
 }
 
 .nav-bar-name {
@@ -201,9 +201,13 @@ p {
 .section-about-us {
     display: flex;
     justify-content: space-between;
-    padding: 80px;
     background: #F3F3F3;
 }
+
+.about-us{
+    width: 50vw;
+}
+
 
 .section-container {
     display: flex;
@@ -222,10 +226,6 @@ p {
 
 h2 {
     font-size: 60px;
-}
-
-.about-us {
-    padding: 40px;
 }
 
 .img-section-about-us {
@@ -381,15 +381,15 @@ a {
     .hamburger {
         display: block;
         border: 0;
-        background-color: transparent;
-        color: #F3F3F3;
+        background-color: #FFBE10;
+        color: #FFBE10;
         font-size: 30px;
         margin: 20px;
         align-self: flex-end;
+        z-index: 999;
     }
 
     ul {
-        display: none;
         background-color: #2b2c38;
         margin: 0;
     }
@@ -412,6 +412,13 @@ a {
         transform: scale(2);
     }
 
+    .section-container-center{
+        width: 80vw;
+    }
+
+    .about-us{
+        width: 80vw;
+    }
 }
 
 .title-project {
