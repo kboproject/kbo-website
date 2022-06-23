@@ -270,6 +270,10 @@ h2 {
         flex-wrap: wrap;
     }
 
+    p{
+        text-align: justify;
+    }
+
     .section-why-us {
         flex-wrap: wrap;
         justify-content: center;
@@ -277,10 +281,6 @@ h2 {
 
     .nav-bar {
         height: 90vh;
-    }
-
-    body {
-        font-size: 16px;
     }
 
     .section-about-us {
@@ -293,15 +293,14 @@ h2 {
         justify-content: center;
     }
 
-    p {
-        font-size: 22px;
-    }
-
-
     .dot {
         height: 10px;
         width: 10px;
         margin-top: 10px;
+    }
+
+    h2{
+        text-align: left;
     }
 }
 
@@ -413,10 +412,6 @@ a {
         transform: scale(2);
     }
 
-
-    p {
-        font-size: 18px;
-    }
 }
 
 .title-project {
